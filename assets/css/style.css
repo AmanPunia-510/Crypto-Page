@@ -39,11 +39,6 @@
   padding-top: 100px;
 }
 
-.py-120 {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .pb-180 {
   padding-bottom: 180px;
 }
@@ -368,8 +363,21 @@ hr {
   }
 
   .py-lg-145 {
-    padding-top: 145px;
-    padding-bottom: 145px;
+    padding-top: 145px !important;
+    padding-bottom: 145px !important;
+  }
+
+  .py-lg-120 {
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+  }
+
+  .pt-lg-100 {
+    padding-top: 100px !important;
+  }
+
+  .pb-lg-180 {
+    padding-bottom: 180px !important;
   }
 }
 
@@ -506,7 +514,7 @@ hr {
     left: 0;
   }
 
-  .token-card{
+  .token-card {
     max-width: 768px;
   }
 }
@@ -561,11 +569,11 @@ hr {
     height: 33px;
   }
 
-  .token-card{
+  .token-card {
     padding: 12px;
   }
 
-  .gap-14{
+  .gap-14 {
     gap: 8px;
   }
 }
