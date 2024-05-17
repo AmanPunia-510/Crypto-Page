@@ -41,6 +41,7 @@
   --fs-13xl: 64px;
   --fs-14xl: 72px;
   --fs-15xl: 80px;
+  --fs-16xl: 54px;
 
   /* line height */
   --lh-110: 110%;
@@ -63,6 +64,7 @@
   --btn-bg: #f11640;
   --border-color: #ffffff40;
   --navbar-bg: #312526;
+  --color-b8: #b8b4bf;
   --btn-gradient: linear-gradient(0deg, #da0c1d, #da0c1d);
 }
 
@@ -141,6 +143,10 @@
   font-size: var(--fs-15xl);
 }
 
+.fs-16xl {
+  font-size: var(--fs-16xl);
+}
+
 .lh-110 {
   line-height: var(--lh-110);
 }
@@ -201,6 +207,10 @@
   background-color: var(--navbar-bg);
 }
 
+.color-b8 {
+  color: var(--color-b8);
+}
+
 /*--------------------------------------------------------------- Root Media Screen ---------------------------------------------------*/
 
 @media (max-width: 1200px) {
@@ -232,5 +242,6 @@
     --fs-7xl: 40px;
     --fs-14xl: 30px;
     --fs-15xl: 30px;
+    --fs-16xl: 30px;
   }
 }

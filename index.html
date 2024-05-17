@@ -13,10 +13,11 @@
 </head>
 
 <body>
-    <header class="header min-vh-100 w-100 d-flex flex-column">
+    <header class="header min-vh-100 w-100 d-flex flex-column position-relative overflow-hidden">
         <nav class="nav pt-20">
             <div class="my-container w-100">
-                <div class="navbar d-flex justify-content-between align-items-center py-10 px-12 navbar-bg px-sm-6 py-sm-five">
+                <div
+                    class="navbar d-flex justify-content-between align-items-center py-10 px-12 navbar-bg px-sm-6 py-sm-five">
 
                     <div class="logo">
                         <img src="./assets/images/svg/logo.svg" alt="logo svg" class="main-logo">
@@ -50,7 +51,7 @@
             </div>
         </nav>
 
-        <div class="my-container w-100 d-flex flex-grow-1 align-items-center">
+        <div class="my-container w-100 d-flex flex-grow-1 align-items-center position-relative z-1">
             <div class="header-box">
                 <h2 class="header-h fw-700 fs-15xl text-center white-color lh-110">Redefining Raffles with Crypto
                     Rewards!</h2>
@@ -58,7 +59,8 @@
                     a long established fact that a reader will be distracted by the readable content of a page when
                     looking at its
                     layout.</p>
-                <div class="two-buttons d-flex align-items-center gap-4 justify-content-center mt-32 flex-column flex-sm-row">
+                <div
+                    class="two-buttons d-flex align-items-center gap-4 justify-content-center mt-32 flex-column flex-sm-row">
                     <button
                         class="commen-btn btn-bg position-relative ff-railway fw-700 fs-md lh-150 white-color">Launch
                         dApp</button>
@@ -78,10 +80,41 @@
                 </div>
             </div>
         </div>
+        <img src="./assets/images/png/header-layer.png" alt="Header Bg" class="header-btm position-absolute">
     </header>
 
     <main>
-        
+        <!-------------------------------------------------- section 1 coins ------------------------------------------------------>
+        <section class="section1 py-45 py-sm-80 py-lg-145">
+            <div class="my-container w-100">
+                <div class="row align-items-center gap-5 gap-lg-0">
+                    <div class="col-12 col-lg-7">
+                        <div class="max-w-490">
+                            <div class="sec1-h ff-railway fw-700 fs-16xl white-color lh-125 text-center text-lg-start">Introducing a New Age of
+                                Exclusivity</div>
+                            <div class="sec1-p ff-railway fw-400 fs-md lh-150 color-b8 mt-16 text-center text-lg-start">It is a long established
+                                fact that a reader will be distracted by the
+                                readable content of a page when looking at its
+                                layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                                of
+                                letters, as opposed to using
+                                'Content here, content here', making it look like readable English. Many desktop
+                                publishing
+                                packages and web page
+                                editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+                                will
+                                uncover many web sites
+                                still in their infancy.</div>
+                            <button
+                                class="commen-btn btn-bg position-relative ff-railway fw-700 fs-md lh-150 white-color d-flex justify-content-center align-items-center mt-24 mt-lg-40 mx-auto mx-lg-0">Explore</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-flex justify-content-center justify-content-lg-start">
+                        <img src="./assets/images/png/coin.png" alt="coin-image" class="coin-image w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer></footer>
