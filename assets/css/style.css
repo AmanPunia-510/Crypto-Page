@@ -39,6 +39,14 @@
   padding-top: 100px;
 }
 
+.mt-120 {
+  margin-top: 120px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
 .pb-180 {
   padding-bottom: 180px;
 }
@@ -61,6 +69,10 @@ h2 {
 
 .mt-24 {
   margin-top: 24px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .mt-88 {
@@ -345,6 +357,33 @@ hr {
   pointer-events: none;
 }
 
+/*----------------------------------------------------------- Section 5 ---------------------------------------------------------------*/
+.partners-image {
+  position: relative;
+  height: 80px;
+  padding: 12px 40px;
+  border-radius: 6px;
+  background-color: #5e5e5e26;
+}
+
+.partners-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  padding: 3px;
+  background: linear-gradient(
+    92.76deg,
+    rgba(241, 22, 64, 0.5) 0.29%,
+    rgba(74, 18, 204, 0.5) 64.44%
+  );
+  -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
+    linear-gradient(var(--white-color) 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
 @media (min-width: 992px) {
   .coin-image {
     width: 100%;
@@ -379,6 +418,16 @@ hr {
   .pb-lg-180 {
     padding-bottom: 180px !important;
   }
+  .partners-image {
+    max-width: 220px;
+  }
+
+  .mt-lg-40 {
+    margin-top: 40px !important;
+  }
+}
+
+@media (min-width: 768px) {
 }
 
 @media (min-width: 576px) {
