@@ -88,6 +88,7 @@ h2 {
 .max-w-602 {
   max-width: 602px;
 }
+
 /*----------------------------------------------------------- All Html Classes Or Id ---------------------------------------------------*/
 
 /*----------------------------------------------------------- Header -------------------------------------------------------------------*/
@@ -381,6 +382,25 @@ hr {
   pointer-events: none;
 }
 
+/*----------------------------------------------------------- Section 6 ---------------------------------------------------------------*/
+
+.section6 {
+  background-image: url(../images/png/section-6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec6-top{
+  top: 0;
+  left: 0;
+}
+
+.sec6-bottom{
+  bottom: 0;
+  left: 0;
+}
+
 @media (min-width: 992px) {
   .coin-image {
     width: 100%;
@@ -421,6 +441,15 @@ hr {
 
   .mt-lg-40 {
     margin-top: 40px !important;
+  }
+
+  .max-w-486 {
+    max-width: 486px;
+  }
+
+  .py-lg-175{
+    padding-top: 175px;
+    padding-bottom: 175px;
   }
 }
 
@@ -562,6 +591,10 @@ hr {
 
   .token-card {
     max-width: 768px;
+  }
+
+  .sec6-img {
+   max-width: 660px;
   }
 }
 
