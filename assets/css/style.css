@@ -391,14 +391,59 @@ hr {
   background-repeat: no-repeat;
 }
 
-.sec6-top{
+.sec6-top {
   top: 0;
   left: 0;
 }
 
-.sec6-bottom{
+.sec6-bottom {
   bottom: 0;
   left: 0;
+}
+
+/*----------------------------------------------------------- Section 7 ---------------------------------------------------------------*/
+.sec7-card {
+  background: linear-gradient(
+    180deg,
+    rgba(241, 22, 64, 0.24) 0%,
+    rgba(33, 33, 129, 0.19) 64.12%,
+    rgba(33, 33, 129, 0.18) 100%
+  );
+  box-shadow: 0px 2px 34.3px 4px #18539847;
+  padding: 60px;
+  border-radius: 25px;
+}
+
+.sec7-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 25px;
+  padding: 4px;
+  background: linear-gradient(
+    92.76deg,
+    rgba(241, 22, 64, 0.5) 0.29%,
+    rgba(74, 18, 204, 0.5) 64.44%
+  );
+  -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
+    linear-gradient(var(--white-color) 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.launch-btn {
+  background-color: transparent;
+}
+
+.sec7-right {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sec7-col6 {
+  max-width: 480px;
 }
 
 @media (min-width: 992px) {
@@ -447,9 +492,13 @@ hr {
     max-width: 486px;
   }
 
-  .py-lg-175{
+  .py-lg-175 {
     padding-top: 175px;
     padding-bottom: 175px;
+  }
+
+  .max-w-462 {
+    max-width: 462px;
   }
 }
 
@@ -594,7 +643,7 @@ hr {
   }
 
   .sec6-img {
-   max-width: 660px;
+    max-width: 660px;
   }
 }
 
