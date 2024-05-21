@@ -1,4 +1,13 @@
 @import url("./root.css");
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.left-0 {
+  left: 0;
+}
+
 /*----------------------------------------------------------- All Flex Classes ---------------------------------------------------------*/
 .gap-14 {
   gap: 14px;
@@ -12,6 +21,7 @@
   gap: 30px;
 }
 /*----------------------------------------------------------- All Padding Classes ------------------------------------------------------*/
+
 .py-10 {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -30,13 +40,30 @@
   padding-top: 20px;
 }
 
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .py-45 {
   padding-top: 45px;
   padding-bottom: 45px;
 }
 
+.pt-77 {
+  padding-top: 77px;
+}
+
 .pt-100 {
   padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-129 {
+  padding-bottom: 129px;
 }
 
 .my-partner {
@@ -64,6 +91,10 @@ h2 {
   margin-top: 32px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-24 {
   margin-top: 24px;
 }
@@ -79,6 +110,7 @@ h2 {
 .mb-60 {
   margin-bottom: 60px;
 }
+
 /*----------------------------------------------------------- All Width Classes --------------------------------------------------------*/
 
 .max-w-580 {
@@ -151,7 +183,7 @@ h2 {
   z-index: 1;
 }
 
-/*----------------------------------------------------------- Section 1 ---------------------------------------------------------------*/
+/*----------------------------------------------------------- coins ---------------------------------------------------------------*/
 
 .section1 {
   background-image: url(../images/png/section1.png);
@@ -164,7 +196,7 @@ h2 {
   max-width: 594px;
 }
 
-/*----------------------------------------------------------- Section 2 ---------------------------------------------------------------*/
+/*----------------------------------------------------------- timeline ---------------------------------------------------------------*/
 
 body {
   background-color: #010000;
@@ -321,7 +353,30 @@ hr {
   display: none;
 }
 
-/*----------------------------------------------------------- Section 4 ---------------------------------------------------------------*/
+/*-----------------------------------------------------------  Roadmap ---------------------------------------------------------------*/
+
+.common-road {
+  max-width: 237px;
+}
+
+.common-rd-svg {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: #4a15c3;
+}
+
+.card-p {
+  color: #b6afb6;
+}
+
+.roadmap-image {
+  right: 0;
+  bottom: 0;
+  max-width: 1160px;
+}
+
+/*----------------------------------------------------------- Tokenomics ---------------------------------------------------------------*/
 
 .sec4-image {
   max-width: 520px;
@@ -355,7 +410,7 @@ hr {
   pointer-events: none;
 }
 
-/*----------------------------------------------------------- Section 5 ---------------------------------------------------------------*/
+/*----------------------------------------------------------- Partners ---------------------------------------------------------------*/
 .partners-image {
   position: relative;
   height: 80px;
@@ -446,6 +501,44 @@ hr {
   max-width: 480px;
 }
 
+/*----------------------------------------------------------- Footer ---------------------------------------------------------------*/
+
+.footer {
+  background-image: url("../images/png/Footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-p {
+  margin: 0;
+  color: #b5b6b7;
+  max-width: 321px;
+}
+
+.commen-icons {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #ffffff0d;
+  border: 0.78px solid #ffffff;
+}
+
+.sub-footer {
+  color: #b4b3b4;
+  border-top: 1px solid #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .roadmap-box {
+    max-width: 530px;
+  }
+
+  .mt-xl-56 {
+    margin-top: 56px;
+  }
+}
+
 @media (min-width: 992px) {
   .coin-image {
     width: 100%;
@@ -504,6 +597,35 @@ hr {
   .sec7-card {
     padding: 60px;
   }
+
+  .mt-lg-128 {
+    margin-top: 128px;
+  }
+
+  .mt-lg-98 {
+    margin-top: 98px;
+  }
+
+  .mb-lg-180 {
+    margin-bottom: 180px;
+  }
+
+  .mt-lg-78 {
+    margin-top: 78px;
+  }
+
+  .pb-lg-100 {
+    padding-bottom: 100px;
+  }
+
+  .py-lg-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .pb-lg-80{
+    padding-bottom: 80px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -517,6 +639,12 @@ hr {
   .py-sm-80 {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .roadmap-image {
+    opacity: 20%;
   }
 }
 
@@ -711,5 +839,9 @@ hr {
 
   .gap-14 {
     gap: 8px;
+  }
+
+  .paddingTop-0 {
+    padding-top: 0 !important;
   }
 }
