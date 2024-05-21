@@ -14,7 +14,7 @@
 
 <body>
     <header class="header min-vh-100 w-100 d-flex flex-column position-relative">
-        <nav class="nav pt-20">
+        <nav class="nav pt-20 position-relative z-2 js-z">
             <div class="my-container w-100">
                 <div
                     class="navbar d-flex justify-content-between align-items-center py-10 px-12 navbar-bg px-sm-6 py-sm-five">
@@ -32,11 +32,11 @@
                     </label>
 
                     <ul class="navbar-items d-flex align-items-center gap-30 m-0">
-                        <li><a href="#" class="fw-400 fs-md lh-150 ff-railway color-c1">Home</a></li>
-                        <li><a href="#" class="fw-400 fs-md lh-150 ff-railway color-c1">About Us</a></li>
-                        <li><a href="#" class="fw-400 fs-md lh-150 ff-railway color-c1">How To Buy</a></li>
-                        <li><a href="#" class="fw-400 fs-md lh-150 ff-railway color-c1">Staking</a></li>
-                        <li><a href="#" class="fw-400 fs-md lh-150 ff-railway color-c1">RoadMap</a></li>
+                        <li class="navlist"><a href="#" class="fw-400 fs-md lh-150 ff-railway color-c1">Home</a></li>
+                        <li class="navlist"><a href="#" class="fw-400 fs-md lh-150 ff-railway color-c1">About Us</a></li>
+                        <li class="navlist"><a href="#" class="fw-400 fs-md lh-150 ff-railway color-c1">How To Buy</a></li>
+                        <li class="navlist"><a href="#" class="fw-400 fs-md lh-150 ff-railway color-c1">Staking</a></li>
+                        <li class="navlist"><a href="#" class="fw-400 fs-md lh-150 ff-railway color-c1">RoadMap</a></li>
                         <li>
                             <button
                                 class="commen-btn btn-bg position-relative ff-railway fw-700 fs-md lh-150 white-color d-flex d-lg-none justify-content-center align-items-center">Launch
@@ -51,7 +51,7 @@
             </div>
         </nav>
 
-        <div class="my-container w-100 d-flex flex-grow-1 align-items-center position-relative z-1">
+        <div class="my-container w-100 d-flex flex-grow-1 align-items-center position-relative z-2 js-z">
             <div class="header-box">
                 <h2 class="header-h fw-700 fs-15xl text-center white-color lh-110 ff-railway">Redefining Raffles with
                     Crypto
@@ -61,10 +61,9 @@
                     looking at its
                     layout.</p>
                 <div
-                    class="two-buttons d-flex align-items-center gap-4 justify-content-center mt-32 flex-column flex-sm-row">
+                    class="two-buttons d-flex align-items-center gap-4 justify-content-center mt-32 flex-column flex-sm-row position-relative z-2">
                     <button
-                        class="commen-btn btn-bg position-relative ff-railway fw-700 fs-md lh-150 white-color">Launch
-                        dApp</button>
+                        class="commen-btn btn-bg position-relative ff-railway fw-700 fs-md lh-150 white-color">Get Started</button>
 
                     <button class="learn-btn d-flex align-items-center gap-14">
                         <div class="pause-svg d-flex justify-content-center align-items-center">
@@ -89,7 +88,7 @@
     <main>
         <!-------------------------------------------------- coins ----------------------------------------------------->
         <section class="section1 py-55 py-sm-100 py-lg-145">
-            <div class="my-container w-100">
+            <div class="my-container w-100 position-relative z-2">
                 <div class="row align-items-center gap-5 gap-lg-0">
                     <div class="col-12 col-lg-7">
                         <div class="max-w-490">
@@ -138,8 +137,8 @@
                         class="row align-items-md-center how-it-works flex-row-reverse justify-content-start mt-54 mt-md-0">
                         <div class="col-lg-6 col-md-7 col-9 text-right">
                             <div class="timeline_boxes">
-                                <p class="fm fw-700 fs-20 lh-120 text-white">Create a DeFi wallet</p>
-                                <p class="text-white fm fw-400 fs-16 lh-150">Creating a decentralized finance
+                                <p class="ff-railway fw-700 fs-xl lh-125 text-white">Create a DeFi wallet</p>
+                                <p class="text-white ff-railway fw-400 fs-md lh-150 mt-16">Creating a decentralized finance
                                     (DeFi)
                                     wallet involves
                                     interacting with blockchain technology, typically the Ethereum
@@ -149,8 +148,10 @@
                             </div>
                         </div>
                         <div class="col-3 text-center full">
-                            <div class="image_wh_box"><img src="./assets/images/PNG/timeline-img1.png"
-                                    alt="random images" class="wh_changes_timeline_img"></div>
+                            <div class="image_wh_box">
+                                <img src="./assets/images/PNG/timeline-img1.png"
+                                    alt="random images" class="wh_changes_timeline_img">
+                                </div>
                         </div>
                     </div>
 
@@ -170,13 +171,15 @@
                     <div
                         class="row align-items-md-center how-it-works flex-md-row-reverse justify-content-md-end mt-54 mt-md-0">
                         <div class="col-3 text-center full d-flex justify-content-md-end">
-                            <div class="image_wh_box"><img src="./assets/images/PNG/timeline-img2.png"
-                                    alt="random images" class="wh_changes_timeline_img"></div>
+                            <div class="image_wh_box">
+                                <img src="./assets/images/PNG/timeline-img2.png"
+                                    alt="random images" class="wh_changes_timeline_img">
+                                </div>
                         </div>
                         <div class="col-lg-6 col-md-7 col-9 text-right">
                             <div class="timeline_boxes">
-                                <p class="fm fw-700 fs-20 lh-120 text-white">Create a DeFi wallet</p>
-                                <p class="text-white fm fw-400 fs-16 lh-150">Creating a decentralized finance
+                                <p class="ff-railway fw-700 fs-xl lh-125 text-white">Create a DeFi wallet</p>
+                                <p class="text-white ff-railway fw-400 fs-md lh-150 mt-16">Creating a decentralized finance
                                     (DeFi)
                                     wallet involves
                                     interacting with blockchain technology, typically the Ethereum
@@ -203,8 +206,8 @@
                     <div class="row align-items-md-center how-it-works flex-row-reverse mt-54 mt-md-0">
                         <div class="col-lg-6 col-md-7 col-9 text-right">
                             <div class="timeline_boxes">
-                                <p class="fm fw-700 fs-20 lh-120 text-white">Create a DeFi wallet</p>
-                                <p class="text-white fm fw-400 fs-16 lh-150">Creating a decentralized finance
+                                <p class="ff-railway fw-700 fs-xl lh-125 text-white">Create a DeFi wallet</p>
+                                <p class="text-white ff-railway fw-400 fs-md lh-150 mt-16">Creating a decentralized finance
                                     (DeFi)
                                     wallet involves
                                     interacting with blockchain technology, typically the Ethereum
@@ -214,8 +217,10 @@
                             </div>
                         </div>
                         <div class="col-3 text-center full">
-                            <div class="image_wh_box"><img src="./assets/images/PNG/timeline-img3.png"
-                                    alt="random images" class="wh_changes_timeline_img"></div>
+                            <div class="image_wh_box">
+                                <img src="./assets/images/PNG/timeline-img3.png"
+                                    alt="random images" class="wh_changes_timeline_img">
+                                </div>
                         </div>
                     </div>
 
@@ -242,8 +247,8 @@
                         </div>
                         <div class="col-lg-6 col-md-7 col-9 text-right">
                             <div class="timeline_boxes">
-                                <p class="fm fw-700 fs-20 lh-120 text-white">Create a DeFi wallet</p>
-                                <p class="text-white fm fw-400 fs-16 lh-150">Creating a decentralized finance
+                                <p class="ff-railway fw-700 fs-md lh-125 text-white">Create a DeFi wallet</p>
+                                <p class="text-white ff-railway fw-400 fs-md lh-150 mt-16">Creating a decentralized finance
                                     (DeFi)
                                     wallet involves
                                     interacting with blockchain technology, typically the Ethereum
@@ -266,12 +271,12 @@
                         </div>
                     </div>
 
-                    <!--content row three-->
+                    <!--content row five-->
                     <div class="row align-items-md-center how-it-works flex-row-reverse mt-54 mt-md-0">
                         <div class="col-lg-6 col-md-7 col-9 text-right">
                             <div class="timeline_boxes">
                                 <p class="fm fw-700 fs-20 lh-120 text-white">Create a DeFi wallet</p>
-                                <p class="text-white fm fw-400 fs-16 lh-150">Creating a decentralized finance
+                                <p class="text-white fm fw-400 fs-16 lh-150 mt-16">Creating a decentralized finance
                                     (DeFi)
                                     wallet involves
                                     interacting with blockchain technology, typically the Ethereum
@@ -281,7 +286,7 @@
                             </div>
                         </div>
                         <div class="col-3 text-center full">
-                            <div class="image_wh_box"><img src="./assets/images/PNG/timeline-img3.png"
+                            <div class="image_wh_box"><img src="./assets/images/PNG/timeline-img5.png"
                                     alt="random images" class="wh_changes_timeline_img"></div>
                         </div>
                     </div>
@@ -352,8 +357,8 @@
         </section>
 
         <!-------------------------------------------------- tokenmics ------------------------------------------------->
-        <section class="section4 py-55 py-sm-100 py-lg-120">
-            <div class="my-container w-100">
+        <section class="section4 py-55 py-sm-100 py-lg-120 position-relative">
+            <div class="my-container w-100 position-relative z-2">
                 <div class="sec1-h ff-railway fw-700 fs-16xl white-color lh-125 text-center">
                     Tokenomics</div>
                 <div class="row mt-5 align-items-center">
@@ -415,11 +420,16 @@
                     </div>
                 </div>
             </div>
+            <img src="./assets/images/png/cheaper-left.png" alt="fire image" class="token-fire position-absolute">
+            <img src="./assets/images/png/left-red.png" alt="left red" class="left-red position-absolute z-1">
+            <img src="./assets/images/png/token-note.png" alt="token note" class="token-note position-absolute d-none d-sm-block">
+            <img src="./assets/images/png/token-right-red.png" alt="token right red" class="token-right-red position-absolute">
+            <img src="./assets/images/png/token-coins.png" alt="token coins" class="token-coin position-absolute">
         </section>
 
         <!-------------------------------------------------- Parteners ------------------------------------------------->
         <section class="section5 pb-55 pb-lg-80">
-            <div class="my-container w-100">
+            <div class="my-container w-100 position-relative z-2">
                 <div class="sec1-h ff-railway fw-700 fs-16xl white-color lh-125 text-center mb-5">
                     Partners</div>
                 <div class="row">
@@ -543,15 +553,16 @@
                 that a reader distracted layout.</p>
             <div class="footer-list overflow-scroll mx-auto">
                 <ul class="footer-navlist d-flex align-items-center justify-content-between gap-3 mt-20 mx-auto justify-content-lg-center">
-                    <li><a href="#" class="fw-400 fs-md lh-150 ff-railway white-color text-nowrap">Home</a></li>
-                    <li><a href="#" class="fw-400 fs-md lh-150 ff-railway white-color text-nowrap">About Us</a></li>
-                    <li><a href="#" class="fw-400 fs-md lh-150 ff-railway white-color text-nowrap">How To Buy</a></li>
-                    <li><a href="#" class="fw-400 fs-md lh-150 ff-railway white-color text-nowrap">Staking</a></li>
-                    <li><a href="#" class="fw-400 fs-md lh-150 ff-railway white-color text-nowrap">RoadMap</a></li>
+                    <li class="footer-nav"><a href="#" class="fw-400 fs-md lh-150 ff-railway white-color text-nowrap">Home</a></li>
+                    <li class="footer-nav"><a href="#" class="fw-400 fs-md lh-150 ff-railway white-color text-nowrap">About Us</a></li>
+                    <li class="footer-nav"><a href="#" class="fw-400 fs-md lh-150 ff-railway white-color text-nowrap">How To Buy</a></li>
+                    <li class="footer-nav"><a href="#" class="fw-400 fs-md lh-150 ff-railway white-color text-nowrap">Staking</a></li>
+                    <li class="footer-nav"><a href="#" class="fw-400 fs-md lh-150 ff-railway white-color text-nowrap">RoadMap</a></li>
                 </ul>
             </div>
 
             <div class="three-icons d-flex align-items-center gap-18 justify-content-center mt-4">
+                <a href="#">
                 <div class="commen-icons telegram-icon d-flex justify-content-center align-items-center">
                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_46313_6971)">
@@ -565,16 +576,18 @@
                             </clipPath>
                         </defs>
                     </svg>
-                </div>
+                </div></a>
 
+                <a href="#">
                 <div class="commen-icons medium-icon d-flex justify-content-center align-items-center">
                     <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M15.5928 1.89711L16.8848 0.655681V0.383789H12.4102L9.22125 8.35928L5.59391 0.383789H0.9022V0.655681L2.4113 2.48094C2.55884 2.61583 2.63472 2.81395 2.61575 3.01208V10.1845C2.66212 10.4438 2.57992 10.7072 2.39866 10.8948L0.697754 12.9667V13.2344H5.51593V12.9625L3.81713 10.8969C3.72611 10.8045 3.65765 10.6924 3.61707 10.5692C3.57649 10.446 3.56489 10.3151 3.58318 10.1867V3.98161L7.81331 13.2386H8.3044L11.9423 3.98161V11.3564C11.9423 11.5503 11.9423 11.5904 11.8158 11.7189L10.5069 12.9899V13.2618H16.8553V12.9899L15.5928 11.7484C15.4832 11.6641 15.4263 11.5229 15.4495 11.3859V2.25963C15.4386 2.1919 15.4461 2.12248 15.4713 2.05868C15.4966 1.99488 15.5385 1.93907 15.5928 1.89711Z"
                             fill="white" />
                     </svg>
-                </div>
+                </div></a>
 
+                <a href="#">
                 <div class="commen-icons twiter-icon d-flex justify-content-center align-items-center">
                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_46313_6983)">
@@ -588,7 +601,7 @@
                             </clipPath>
                         </defs>
                     </svg>
-                </div>
+                </div></a>
             </div>
         </div>
         <div class="sub-footer py-30 ff-railway fw-400 fs-md lh-150 text-center position-relative z-2">
