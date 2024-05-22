@@ -986,9 +986,9 @@ hr {
   }
 
   .border-timeline {
-    height: 83%;
+    height: 82%;
     border: 2px dotted white;
-    top: 44%;
+    top: 42%;
     transform: translateY(-50%);
     left: 30px;
   }
