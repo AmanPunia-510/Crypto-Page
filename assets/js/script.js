@@ -15,6 +15,5 @@ let index = document.querySelector(".js-z");
   } else {
     contain.style.position = "unset";
     index.classList.add("z-2");
-
   }
 });
