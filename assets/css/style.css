@@ -8,8 +8,20 @@
   left: 0;
 }
 
+.z-1 {
+  z-index: 1;
+}
+
 .z-2 {
   z-index: 2;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.position-u{
+  position: unset;
 }
 
 /*----------------------------------------------------------- All Flex Classes ---------------------------------------------------------*/
@@ -380,6 +392,18 @@ hr {
   max-width: 1160px;
 }
 
+.security-svg {
+  background-color: #4b0b5e;
+}
+
+.legal-svg {
+  background-image: #2c106c;
+}
+
+.community-svg {
+  background-color: #81139b;
+}
+
 /*----------------------------------------------------------- Tokenomics ---------------------------------------------------------------*/
 
 .main-sale-txt {
@@ -541,7 +565,7 @@ hr {
   bottom: -52%;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
   opacity: 50%;
 }
 
@@ -924,7 +948,7 @@ hr {
     -webkit-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    z-index: 3;
+    z-index: 1;
   }
 
   .show {
@@ -986,7 +1010,7 @@ hr {
   }
 
   .border-timeline {
-    height: 82%;
+    height: 81%;
     border: 2px dotted white;
     top: 42%;
     transform: translateY(-50%);
@@ -1013,6 +1037,10 @@ hr {
 
   .timeline-left {
     bottom: 66%;
+  }
+
+  .mb-60 {
+    margin-bottom: -27px;
   }
 }
 
