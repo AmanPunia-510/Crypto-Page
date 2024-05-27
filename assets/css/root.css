@@ -65,6 +65,42 @@
   --border-color: #ffffff40;
   --navbar-bg: #312526;
   --color-b8: #b8b4bf;
+  --image-vh: #595555;
+  --common-btn: #c70d23;
+  --common-icon: #ffffff0d;
+  --sub-footer: #b4b3b4;
+  --footer-p: #b5b6b7;
+  --sec7-card: linear-gradient(
+    92.76deg,
+    rgba(241, 22, 64, 0.5) 0.29%,
+    rgba(74, 18, 204, 0.5) 64.44%
+  );
+  --sec7: linear-gradient(
+    180deg,
+    rgba(241, 22, 64, 0.24) 0%,
+    rgba(33, 33, 129, 0.19) 64.12%,
+    rgba(33, 33, 129, 0.18) 100%
+  );
+  --sec7-shadow: #18539847;
+  --part-bg: #5e5e5e26;
+  --token-card: #21218126;
+  --community: #81139b;
+  --legal-svg: #2c106c;
+  --security: #4b0b5e;
+  --card-p: #b6afb6;
+  --rd-bg: #4a15c3;
+  --body-bg: #010000;
+  --timeline-gr: linear-gradient(
+    180deg,
+    rgba(37, 37, 203, 0) 0%,
+    rgba(37, 37, 203, 0.24) 100%
+  );
+  --fa: #ffffff1a;
+  --circle-bg: #ed8d8d;
+  --circle: #4d4545;
+  --how-brdr: #ed8d8d;
+  --navbar: #ffffff0d;
+  --border-top: #46403D;
   --btn-gradient: linear-gradient(0deg, #da0c1d, #da0c1d);
 }
 

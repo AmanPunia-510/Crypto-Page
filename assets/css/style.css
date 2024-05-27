@@ -4,6 +4,7 @@
   display: none;
 }
 
+/*----------------------------------------------------------- All Positions Classes ----------------------------------------------------*/
 .left-0 {
   left: 0;
 }
@@ -20,7 +21,7 @@
   z-index: 0;
 }
 
-.position-u{
+.position-u {
   position: unset;
 }
 
@@ -170,6 +171,7 @@ p {
 .navbar {
   border-radius: 107px;
   border: 1px solid var(--border-color);
+  box-shadow: 0px 0px 11.6px 4px var(--navbar);
 }
 
 .pause-svg {
@@ -213,7 +215,7 @@ p {
 /*----------------------------------------------------------- timeline ---------------------------------------------------------------*/
 
 body {
-  background-color: #010000;
+  background-color: var(--body-bg);
 }
 
 .timeline_boxes {
@@ -223,11 +225,7 @@ body {
 .timeline_boxes {
   max-width: 578px;
   padding: 24px;
-  background: linear-gradient(
-    180deg,
-    rgba(37, 37, 203, 0) 0%,
-    rgba(37, 37, 203, 0.24) 100%
-  );
+  background: var(--timeline-gr);
   border-radius: 24px;
 }
 
@@ -237,12 +235,9 @@ body {
   inset: 0;
   border-radius: 24px;
   padding: 3px;
-  background: linear-gradient(
-    92.76deg,
-    rgba(241, 22, 64, 0.5) 0.29%,
-    rgba(74, 18, 204, 0.5) 64.44%
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  background: var(--sec7-card);
+  -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
+    linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
@@ -252,7 +247,7 @@ body {
   width: 160px;
   height: 160px;
   padding: 20px;
-  background: #ffffff1a;
+  background: var(--fa);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -265,8 +260,8 @@ body {
   font-weight: bold;
   padding: 15px 20px;
   border-radius: 50%;
-  background-color: #ed8d8d;
-  color: #4d4545;
+  background-color: var(--circle-bg);
+  color: var(--circle);
   max-height: 50px;
   z-index: 2;
   display: none;
@@ -286,7 +281,7 @@ body {
 .how-it-works.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #ed8d8d;
+  border-left: 3px solid var(--how-brdr);
   z-index: 1;
 }
 
@@ -323,7 +318,7 @@ hr {
 }
 
 .timeline hr {
-  border-top: 3px dashed #fff;
+  border-top: 3px dashed var(--white-color);
   margin: 0;
   top: 41px;
   position: relative;
@@ -335,7 +330,7 @@ hr {
 }
 
 .timeline .corner {
-  border: 3px dashed #fff;
+  border: 3px dashed var(--white-color);
   width: 100%;
   position: relative;
 }
@@ -379,11 +374,11 @@ hr {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  background: #4a15c3;
+  background: var(--rd-bg);
 }
 
 .card-p {
-  color: #b6afb6;
+  color: var(--card-p);
 }
 
 .roadmap-image {
@@ -393,15 +388,15 @@ hr {
 }
 
 .security-svg {
-  background-color: #4b0b5e;
+  background-color: var(--security);
 }
 
 .legal-svg {
-  background-image: #2c106c;
+  background-image: var(--legal-svg);
 }
 
 .community-svg {
-  background-color: #81139b;
+  background-color: var(--community);
 }
 
 /*----------------------------------------------------------- Tokenomics ---------------------------------------------------------------*/
@@ -413,7 +408,7 @@ hr {
 .token-card {
   padding: 44px;
   border-radius: 16px;
-  background-color: #21218126;
+  background-color: var(--token-card);
 }
 
 .token-card::after {
@@ -422,11 +417,7 @@ hr {
   inset: 0;
   border-radius: 16px;
   padding: 3px;
-  background: linear-gradient(
-    92.76deg,
-    rgba(241, 22, 64, 0.5) 0.29%,
-    rgba(74, 18, 204, 0.5) 64.44%
-  );
+  background: var(--sec7-card);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -440,7 +431,7 @@ hr {
   height: 80px;
   padding: 12px 40px;
   border-radius: 6px;
-  background-color: #5e5e5e26;
+  background-color: var(--part-bg);
 }
 
 .partners-image::after {
@@ -449,11 +440,7 @@ hr {
   inset: 0;
   border-radius: 6px;
   padding: 1px;
-  background: linear-gradient(
-    92.76deg,
-    rgba(241, 22, 64, 0.5) 0.29%,
-    rgba(74, 18, 204, 0.5) 64.44%
-  );
+  background: var(--sec7-card);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -482,13 +469,8 @@ hr {
 
 /*----------------------------------------------------------- Section 7 ---------------------------------------------------------------*/
 .sec7-card {
-  background: linear-gradient(
-    180deg,
-    rgba(241, 22, 64, 0.24) 0%,
-    rgba(33, 33, 129, 0.19) 64.12%,
-    rgba(33, 33, 129, 0.18) 100%
-  );
-  box-shadow: 0px 2px 34.3px 4px #18539847;
+  background: var(--sec7);
+  box-shadow: 0px 2px 34.3px 4px var(--sec7-shadow);
   padding: 20px;
   border-radius: 25px;
 }
@@ -499,11 +481,7 @@ hr {
   inset: 0;
   border-radius: 25px;
   padding: 4px;
-  background: linear-gradient(
-    92.76deg,
-    rgba(241, 22, 64, 0.5) 0.29%,
-    rgba(74, 18, 204, 0.5) 64.44%
-  );
+  background: var(--sec7-card);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -537,7 +515,7 @@ hr {
 
 .footer-p {
   margin: 0;
-  color: #b5b6b7;
+  color: var(--footer-p);
   max-width: 321px;
 }
 
@@ -545,13 +523,13 @@ hr {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background: #ffffff0d;
-  border: 0.78px solid #ffffff;
+  background: var(--common-icon);
+  border: 0.78px solid var(--white-color);
 }
 
 .sub-footer {
-  color: #b4b3b4;
-  border-top: 1px solid #ffffff;
+  color: var(--sub-footer);
+  border-top: 1px solid var(--border-top);
 }
 
 .footer-navlist {
@@ -675,7 +653,7 @@ hr {
 
 .commen-btn:hover {
   background-color: var(--white-color);
-  color: #c70d23;
+  color: var(--common-btn);
   border: none;
 }
 
@@ -981,12 +959,12 @@ hr {
   .image_wh_box {
     width: 96px;
     height: 96px;
-    background: #595555;
+    background: var(--image-vh);
   }
 
   .border-timeline {
     height: 86%;
-    border: 2px dotted white;
+    border: 2px dotted var(--white-color);
     top: 45%;
     transform: translateY(-50%);
     left: 47px;
@@ -1011,7 +989,7 @@ hr {
 
   .border-timeline {
     height: 81%;
-    border: 2px dotted white;
+    border: 2px dotted var(--white-color);
     top: 42%;
     transform: translateY(-50%);
     left: 30px;
@@ -1031,8 +1009,7 @@ hr {
   }
 
   .rs-left {
-    opacity: 33%;
-    filter: blur(3px);
+    opacity: 20%;
   }
 
   .timeline-left {
